@@ -1,0 +1,28 @@
+div {
+    margin: 10px;
+    font-size: 20px;
+}
+
+.text1 {
+    background-color: cornflowerblue;
+}
+
+.text2 {
+    background-color: rgb(192, 122, 227);
+}
+
+.text3 {
+    background-color: rgb(135, 211, 135);
+}
+
+.text4 {
+    background-color: darksalmon;
+}
+
+.text5 {
+    background-color: goldenrod;
+}
+
+.text6 {
+    background-color: slategrey;
+}
