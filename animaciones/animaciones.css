@@ -1,0 +1,40 @@
+.cuadrado1 {
+    width: 200px;
+    height: 200px;
+    background-color: blueviolet;
+}
+
+.cuadrado2 {
+    width: 200px;
+    height: 200px;
+    background-color: blue;
+    position: relative;
+}
+
+.cuadrado1:hover, .cuadrado1.active {
+    animation-name: cuadrado1;
+    animation-duration: 1s;
+    animation-timing-function:linear;
+    animation-fill-mode:forwards;
+    animation-iteration-count: infinite;
+}
+
+@keyframes cuadrado1 {
+    100% {
+        background-color: blueviolet;
+        transform: rotate(360deg);
+    }
+}
+
+.cuadrado2:hover, .cuadrado2.active {
+    animation-name: cuadrado2;
+    animation-duration: 20s;
+    animation-timing-function:initial;
+    animation-iteration-count:infinite;
+}
+
+@keyframes cuadrado2 {
+    0%   {background-color: blue; left:0px; top:0px;}
+    75%  {left:200px; top:0px; opacity:0;}
+      
+}
