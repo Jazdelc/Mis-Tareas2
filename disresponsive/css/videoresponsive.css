@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+video {
+    width: 800px;
+    margin-bottom: 50px;
+    border: 3px solid;
+    box-shadow: 2px 2px 2px 2px black;
+}
+
+img {
+    display: none;
+}
+
+@media (max-width:600px) {
+    video {
+        width: 500px;
+    }
+}
+
+@media (max-width:400px) {
+    
+    video {
+        display: none;
+    }
+    img {
+        width: 200px;
+        display: initial;
+    }
+}    

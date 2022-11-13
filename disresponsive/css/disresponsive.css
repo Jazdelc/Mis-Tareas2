@@ -1,0 +1,12 @@
+.contenedor {
+    background-color: red;
+    width: 800px;
+    height: 400px;
+}
+
+@media only screen and (max-width: 400px) {
+    .contenedor {
+        background-color: green;
+        height: 200px;
+    }
+}
