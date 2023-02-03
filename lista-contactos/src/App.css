@@ -1,0 +1,100 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.App {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: lightpink;
+  row-gap: 10px;
+}
+.contacto {
+  background-color: lavender;
+  margin: 5px;
+  border-radius: 10px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  font-family: Arial, Helvetica, sans-serif;
+  row-gap: 10px;
+  align-items: center;
+  min-width: 200px;
+}
+
+.lista-contactos {
+  display: flex;
+  flex-wrap: wrap;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.eliminar-button {
+  width: 100%;
+  border: none;
+  background-color: darkviolet;
+  padding: 5px;
+  border-radius: 3px;
+  color: white;
+  font-size: 14px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.eliminar-button:hover {
+  opacity: 0.8;
+}
+
+.state-button {
+  width: 100%;
+  border: none;
+  padding: 5px;
+  border-radius: 3px;
+  color: white;
+  font-size: 14px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.state-button:hover {
+  opacity: 0.8;
+}
+
+input {
+  background-color: blanchedalmond;
+  border: none;
+  outline: none;
+  color: black;
+  padding: 8px;
+  font-size: 14px;
+  border-radius: 5px;
+}
+
+input::placeholder {
+  color: black;
+}
+
+.crear-button {
+  width: 100%;
+  border: none;
+  padding: 5px;
+  border-radius: 3px;
+  color: white;
+  font-size: 14px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bolder;
+  cursor: pointer;
+  background-color: blue;
+}
+
+.crear-button:hover {
+  opacity: 0.8;
+}
+
+h1 {
+  font-family: Arial, Helvetica, sans-serif;
+}
